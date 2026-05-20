@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Développeuse Web</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2>Mon Portfolio</h2>
+
+    <div class="nav-right">
+      <button onclick="toggleTheme()" class="toggle-btn">🌙 / ☀️</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero fade-in">
+
+    <div class="profile">
+      <img src="image.jpg" alt="Mon image">
+    </div>
+
+    <h1>Salut, je suis <span>Ton Nom</span></h1>
+    <p>Développeuse Web Junior | HTML • CSS • JavaScript • Node.js</p>
+
+    <a href="#projects" class="btn">Voir mes projets</a>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="fade-in">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis une étudiante passionnée en développement web.
+      Je crée des sites modernes et des applications web.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="fade-in">
+    <h2>Mes Projets</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Gestion de Stock</h3>
+        <p>Application web de gestion de produits.</p>
+        <a href="#">Voir projet</a>
+      </div>
+
+      <div class="card">
+        <h3>Site Vitrine</h3>
+        <p>Site moderne pour entreprise.</p>
+        <a href="#">Voir projet</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="fade-in" id="contact">
+    <h2>Contact</h2>
+    <p>Email : tonemail@gmail.com</p>
+
+    <!-- WHATSAPP BUTTON -->
+    <a class="whatsapp" href="https://wa.me/261XXXXXXXXX" target="_blank">
+      💬 Me contacter sur WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 - Mon Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
